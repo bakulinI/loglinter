@@ -1,0 +1,14 @@
+linters:
+  enable:
+    - govet
+    - errcheck
+    - custom-loglint
+
+linters-settings:
+  custom:
+    custom-loglint:
+      path: ./loglint
+      description: "Checks log messages for lowercase, English, no emojis, no sensitive data"
+      source: github.com/bakulinI/loglinter/cmd/loglint
+
+version: 2

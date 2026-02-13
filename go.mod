@@ -1,4 +1,4 @@
-module loglinter
+module github.com/bakulinI/loglinter
 
 go 1.25
 
